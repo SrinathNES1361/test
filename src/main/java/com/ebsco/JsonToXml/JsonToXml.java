@@ -73,6 +73,7 @@ public class JsonToXml {
 			}
 		};
 		System.out.println(" Total PebmedId Fetched "+ meta.size());
+		System.out.println(" Total PebmedId Fetched "+ meta.size());
 		System.out.println("****Writing data to xml file ****");
 		String outputFile = "./output/testoutput.xml";
 		String pubmedIdNotFoundFileString = "./output/List_of_pubmedNotFoundList.txt";
